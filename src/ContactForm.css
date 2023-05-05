@@ -1,0 +1,38 @@
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.0625rem solid black;
+    flex: 1 1 auto;
+
+    line-height: 1.5;
+}
+
+.contact__form div label{
+    flex-basis: 1 1 1;
+}
+
+.contact__form div input{
+    flex-basis: 1 1 2;
+}
+
+
+
+.form__required label::after{
+  content: '*';
+  color: red;
+  vertical-align:middle;
+}
+
+
+.form__optional label::after{
+  content: '';
+  color: inherit;
+  vertical-align:middle;
+}
+
+.error{
+    color: red;
+}

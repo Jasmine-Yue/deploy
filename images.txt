@@ -1,0 +1,23 @@
+1.work1
+source:https://unsplash.com/photos/W9hjnF3M4QM
+licence: https://unsplash.com/license
+
+2.work2
+https://unsplash.com/photos/4TQOo5sRVRk
+
+3.work3
+owner: xingping yue
+
+4. portrait
+owner: xingping yue
+
+5. project1,project2,project3,project4,project5
+owner: xingping yue
+
+
+
+
+Any images must be ones you personally own, be from placekitten.com, or be from http://unsplash.com
+If you include any images in your repo, you must include a images.txt file in your repo (at the same level as package.json, not in public/) and list the url of each image you downloaded along with the url of the license allowing you to use those images
+For any images that you personally own and used, list (in images.txt) the filename of that image as you have it in this project, and list your name as the owner.
+Do NOT download and use random images from the internet/web. Only use images from the listed sites (or you own) and that you have permission to use

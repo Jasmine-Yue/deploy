@@ -1,0 +1,43 @@
+.header {
+    display: grid;
+    grid-template-columns: auto auto 2fr 1fr ; 
+
+    background-color: var(--header-bg-color);
+    
+}
+
+.header__nav {
+    border: none;
+    border-right: 0.0125rem black solid;
+}
+
+.header__skip-link{
+    display: inline-block;
+
+    max-height: 0;
+    max-width: 0;
+    overflow: hidden;
+}
+
+.header__skip-link:focus {
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.header__other {   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header__other 
+
+.other__login {
+    min-width: 5rem;
+    flex: 1 1 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-weight: bolder;
+}

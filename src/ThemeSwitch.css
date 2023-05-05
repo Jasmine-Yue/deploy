@@ -1,0 +1,17 @@
+.btn-theme {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+    border-style: none;
+    background: inherit;
+}
+
+.btn-icon {
+    margin: 0;
+    padding: 0;
+}

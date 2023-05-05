@@ -1,0 +1,51 @@
+
+.button {
+   min-width: fit-content;
+   min-height: fit-content;
+   width: 6rem;
+   height: 2rem;
+   border-radius: 1rem; 
+
+   font-size: inherit;
+
+   background-color: blue;    
+}
+
+.button-link{
+    background-color: inherit;
+    border: none;
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+
+    text-decoration: underline;
+
+    color: blue;
+
+    font-size: inherit;
+
+}
+
+.button-submit {
+   min-width: fit-content;
+   min-height: fit-content;
+   width: 6rem;
+   height: 2rem;
+   border-radius: 1rem; 
+
+   font-size: inherit;
+
+    background-color: orange;    
+}
+
+.button-link:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+.button-submit:disabled {
+       background-color: gray;
+}
+
+.button:disabled {
+       background-color: gray;
+}

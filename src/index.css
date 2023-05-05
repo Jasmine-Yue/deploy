@@ -1,0 +1,35 @@
+
+*,*::before,*::after {
+  box-sizing: border-box; 
+  line-height: 1.2;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+
+    font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+:root {
+  --header-bg-color:burlywood;
+  --bg-color: papayawhip;
+  --bg-banner-color:burlywood;
+  --bg-banner-select-color:#ece6d5; /*#C0FFEE*/;
+  --primary-color: rgb(73, 73, 155);   
+
+/*   --bg-dark-color: #333;
+  --text-dark-color:#eee;
+  --bg-light-color: #eee;
+  --text-light-color:#000; */
+}
+
+a {
+  text-decoration: none;
+}
+

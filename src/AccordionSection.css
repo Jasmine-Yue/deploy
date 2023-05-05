@@ -1,0 +1,39 @@
+
+.accordion__button{
+    width: 100%;
+    border-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: var(--primary-color); /*dcl change to var*/
+    text-align: left;    
+
+    cursor: pointer; 
+
+    line-height: 1.5;
+}
+
+
+.accordion__button::after {
+    content: '\2795' ;
+    font-weight: bold;
+}
+
+.accordion__button--open {
+    background-color: var(--primary-color);
+    color:white;
+}
+.accordion__button--open::after {
+    content: '\2796';
+    color: white;
+}
+
+.accordion__detail {
+    padding: 0.5rem;
+
+    background-color: white;    
+    line-height: 2;
+}

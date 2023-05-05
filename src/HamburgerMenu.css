@@ -1,0 +1,89 @@
+
+
+
+  .global-nav {
+        position: relative;
+
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: inherit;        
+  }
+
+  /*follow is for hamburger button*/
+  .global-nav__button {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        background-color: inherit;
+
+        border-style: none;
+     }
+
+
+.hamburger {
+    display: inline-block;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: black;
+}
+
+.global-nav__button--open .hamburger:nth-child(2) {
+    background: transparent;
+}
+
+.global-nav__button--open .hamburger:nth-child(1) {
+    transform:  rotate(45deg);
+    transform-origin: 0;
+}
+
+.global-nav__button--open .hamburger:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 0;
+}     
+
+
+/*adjust nav__list positon, 
+mobile first not show, when button open, it show */
+  .global-nav__list { 
+     position: absolute; /**/
+
+      top: 80%;
+      right: -200%;
+  }
+
+  .global-nav__button--open + .global-nav__list {
+      top: 80%;
+      left: 45%;
+  }
+
+
+ /*desktop button not show, list 100%width*/
+
+@media (min-width: 44rem) {
+    .global-nav {
+    background-color: var(  --bg-banner-color); 
+  }
+
+    .global-nav__button {
+        display: none;
+    }
+
+    .global-nav__list {
+      position: initial;
+      max-height: initial;
+      width: 100%;
+    }
+
+}
+
+
+@media (prefers-reduced-motion: no-preference ) {
+    /*to modify or remove*/
+    .global-nav__list{
+          transition: right 0.5s ease-in-out;
+    }
+}

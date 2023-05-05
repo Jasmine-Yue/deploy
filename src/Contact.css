@@ -1,0 +1,10 @@
+.main__content {
+    display: flex;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

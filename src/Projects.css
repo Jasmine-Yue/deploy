@@ -1,0 +1,20 @@
+
+.projects {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.projects h2{
+    text-align: left;
+}
+
+.projects__skills {
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.projects__intro {
+
+    padding: 1.5rem;
+
+    border-top: 0.1rem black solid;
+}
