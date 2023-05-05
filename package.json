@@ -17,7 +17,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage" :"https://Jasmine-Yue/github.io/deploy",
+  "homepage" :"https://jasmine-yue.github.io/deploy",
   "scripts": {
     "start": "react-scripts start",
     "build": " set BUILD_PATH=./docs && react-scripts build ",
